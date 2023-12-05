@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <HBox prefHeight="500.0" prefWidth="289.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="500.0" prefWidth="51.0" styleClass="side-bar" stylesheets="@scratch.css">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@thang.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@chat.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@video-chat.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ancestors.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="side-bar" stylesheets="@scratch.css" />
+                  <ImageView fitHeight="40.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@settings.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox prefHeight="500.0" prefWidth="238.0" styleClass="gray-background" stylesheets="@scratch.css">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="34.0" prefWidth="238.0" stylesheets="@scratch.css">
+                     <children>
+                        <ImageView fitHeight="20.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-search-32.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <TextField prefHeight="25.0" prefWidth="166.0" promptText="Search" styleClass="transparent-background" stylesheets="@scratch.css">
+                           <font>
+                              <Font name="Ebrima" size="13.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="15.0" right="15.0" top="20.0" />
+                     </VBox.margin>
+                     <styleClass>
+                        <String fx:value="radius" />
+                        <String fx:value="side-bar" />
+                     </styleClass>
+                  </HBox>
+                  <Pane prefHeight="2.0" prefWidth="238.0" styleClass="side-bar" stylesheets="@scratch.css" />
+                  <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="238.0">
+                     <children>
+                        <ImageView fitHeight="57.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@trang.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="10.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="155.0">
+                           <opaqueInsets>
+                              <Insets left="10.0" />
+                           </opaqueInsets>
+                           <children>
+                              <Label text="Trang" textFill="WHITE">
+                                 <font>
+                                    <Font name="Ebrima Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="19.0" prefWidth="155.0" text="You: Hello how are you" textFill="#9da7a7">
+                                 <font>
+                                    <Font name="Ebrima" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="238.0">
+                     <children>
+                        <ImageView fitHeight="57.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@thao.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="10.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="155.0">
+                           <opaqueInsets>
+                              <Insets left="10.0" />
+                           </opaqueInsets>
+                           <children>
+                              <Label text="Thao" textFill="WHITE">
+                                 <font>
+                                    <Font name="Ebrima Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="19.0" prefWidth="155.0" text="You: N3 gogo" textFill="#9da7a7">
+                                 <font>
+                                    <Font name="Ebrima" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="238.0">
+                     <children>
+                        <ImageView fitHeight="57.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@thuyen.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="10.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="155.0">
+                           <opaqueInsets>
+                              <Insets left="10.0" />
+                           </opaqueInsets>
+                           <children>
+                              <Label text="Thuyen" textFill="WHITE">
+                                 <font>
+                                    <Font name="Ebrima Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="19.0" prefWidth="155.0" text="You: SQL" textFill="#9da7a7">
+                                 <font>
+                                    <Font name="Ebrima" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="238.0">
+                     <children>
+                        <ImageView fitHeight="57.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Tuan.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="10.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="155.0">
+                           <opaqueInsets>
+                              <Insets left="10.0" />
+                           </opaqueInsets>
+                           <children>
+                              <Label text="Tuan" textFill="WHITE">
+                                 <font>
+                                    <Font name="Ebrima Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="19.0" prefWidth="155.0" text="You: hoi thao" textFill="#9da7a7">
+                                 <font>
+                                    <Font name="Ebrima" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="238.0">
+                     <children>
+                        <ImageView fitHeight="57.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@trang2.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="10.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="155.0">
+                           <opaqueInsets>
+                              <Insets left="10.0" />
+                           </opaqueInsets>
+                           <children>
+                              <Label text="Chua te" textFill="WHITE">
+                                 <font>
+                                    <Font name="Ebrima Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="19.0" prefWidth="155.0" text="You:  chua te" textFill="#9da7a7">
+                                 <font>
+                                    <Font name="Ebrima" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="74.0" prefWidth="461.0">
+               <children>
+                  <Label prefHeight="35.0" prefWidth="87.0" text="Trang" textFill="#9da7a7">
+                     <font>
+                        <Font name="Ebrima Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="20.0" right="5.0" />
+                     </padding>
+                  </Label>
+                  <Circle fill="#50c984" radius="5.0" stroke="WHITE" strokeType="INSIDE">
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Circle>
+                  <Label prefHeight="30.0" prefWidth="62.0" text="Online" textFill="#9da7a7">
+                     <font>
+                        <Font name="Ebrima" size="12.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="74.0" prefWidth="208.0" />
+                  <ImageView fitHeight="29.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@telephone-call.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="29.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@video-camera.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="15.0" right="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@menu%20(1).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <ScrollPane prefHeight="379.0" prefWidth="475.0" styleClass="transparent-background" stylesheets="@scratch.css">
+               <content>
+                  <Pane prefHeight="378.0" prefWidth="461.0" styleClass="light-grey-background" stylesheets="@scratch.css">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@trang.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="57.0" layoutY="5.0" prefHeight="36.0" prefWidth="72.0" styleClass="incoming-bubble" stylesheets="@scratch.css" text="Hello:))" textFill="#9da7a7">
+                           <font>
+                              <Font name="Ebrima" size="15.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="40.0" fitWidth="38.0" layoutX="409.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@thang.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="287.0" layoutY="56.0" prefHeight="36.0" prefWidth="115.0" styleClass="outgoing-bubble" stylesheets="@scratch.css" text="Yeah, Hello:))" textFill="WHITE">
+                           <font>
+                              <Font name="Ebrima" size="15.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="7.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@trang.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="57.0" layoutY="103.0" prefHeight="36.0" prefWidth="146.0" styleClass="incoming-bubble" stylesheets="@scratch.css" text="Mai đi học không?" textFill="#9da7a7">
+                           <font>
+                              <Font name="Ebrima" size="15.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="40.0" fitWidth="38.0" layoutX="409.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@thang.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="324.0" layoutY="151.0" prefHeight="36.0" prefWidth="78.0" styleClass="outgoing-bubble" stylesheets="@scratch.css" text="Có kk" textFill="WHITE">
+                           <font>
+                              <Font name="Ebrima" size="15.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="7.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@trang.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="57.0" layoutY="200.0" prefHeight="36.0" prefWidth="146.0" styleClass="incoming-bubble" stylesheets="@scratch.css" text="làm bài ch??" textFill="#9da7a7">
+                           <font>
+                              <Font name="Ebrima" size="15.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="40.0" fitWidth="38.0" layoutX="409.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@thang.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="324.0" layoutY="248.0" prefHeight="36.0" prefWidth="78.0" styleClass="outgoing-bubble" stylesheets="@scratch.css" text="Ch:))" textFill="WHITE">
+                           <font>
+                              <Font name="Ebrima" size="15.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="7.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@trang.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="56.0" layoutY="296.0" prefHeight="36.0" prefWidth="146.0" styleClass="incoming-bubble" stylesheets="@scratch.css" text="tôi làm r này" textFill="#9da7a7">
+                           <font>
+                              <Font name="Ebrima" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </content>
+            </ScrollPane>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="461.0" styleClass="light-grey-background" stylesheets="@scratch.css">
+               <children>
+                  <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@smile%20(1).png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" right="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <TextField prefHeight="35.0" prefWidth="364.0" styleClass="incoming-bubble" stylesheets="@scratch.css" />
+                  <ImageView fitHeight="33.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@send-message.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
